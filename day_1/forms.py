@@ -2,7 +2,6 @@
 
 import tornado.ioloop
 import tornado.web
-import time
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
